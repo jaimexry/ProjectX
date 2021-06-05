@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/contentModel.xml
+/projectSettingsUpdater.xml
+/.idea.ProjectX.iml
+# Datasource local storage ignored files
+/../../../../../../../../:\Developer\Unity\PROJECTX\ProjectX\.idea\.idea.ProjectX\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
