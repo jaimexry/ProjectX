@@ -52,9 +52,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\_Scripts\PlayerController.cs" />
-     <Compile Include="Assets\_Scripts\Gun.cs" />
-     <Compile Include="Assets\_Scripts\BulletBehaviour.cs" />
+     <Compile Include="Assets\_Scripts\Player\PlayerController.cs" />
+     <Compile Include="Assets\_Scripts\Enemies\EnemyHealth.cs" />
+     <Compile Include="Assets\_Scripts\DestroyGameObject.cs" />
+     <Compile Include="Assets\_Scripts\Enemies\Enemy.cs" />
+     <Compile Include="Assets\_Scripts\Effects\Blink.cs" />
+     <None Include="Assets\Art\gothicvania-cemetery-files\public-license.txt" />
  <Reference Include="UnityEngine">
  <HintPath>D:/Archivos de programa/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll</HintPath>
  </Reference>
@@ -286,6 +289,9 @@
  <Reference Include="Unity.Rider.Editor">
  <HintPath>D:/Developer/Unity/PROJECTX/ProjectX/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>D:/Developer/Unity/PROJECTX/ProjectX/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.2D.PixelPerfect.Editor">
  <HintPath>D:/Developer/Unity/PROJECTX/ProjectX/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
  </Reference>
@@ -300,9 +306,6 @@
  </Reference>
  <Reference Include="Unity.2D.Common.Editor">
  <HintPath>D:/Developer/Unity/PROJECTX/ProjectX/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
- </Reference>
- <Reference Include="com.unity.cinemachine.editor">
- <HintPath>D:/Developer/Unity/PROJECTX/ProjectX/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
  <HintPath>D:/Developer/Unity/PROJECTX/ProjectX/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/AOT/Newtonsoft.Json.dll</HintPath>
@@ -682,6 +685,10 @@
       <Project>{bb9cb251-ce3f-9502-2edd-e14dc2c01778}</Project>
       <Name>Unity.2D.IK.Runtime</Name>
     </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{2a8c159f-c8a9-f1a0-0907-bd968604020f}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Triangle.Runtime.csproj">
       <Project>{a9502f2c-c733-aa8d-178f-d5240a437ff0}</Project>
       <Name>Unity.2D.Animation.Triangle.Runtime</Name>
@@ -697,10 +704,6 @@
     <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
       <Project>{ad6c51db-46d1-a782-871e-28e488e8c7db}</Project>
       <Name>Unity.2D.SpriteShape.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Cinemachine.csproj">
-      <Project>{2a8c159f-c8a9-f1a0-0907-bd968604020f}</Project>
-      <Name>Cinemachine</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
