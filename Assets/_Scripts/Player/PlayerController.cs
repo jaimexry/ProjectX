@@ -16,27 +16,38 @@ public class PlayerController : MonoBehaviour
     private Animator _playerAnim;
     private bool isWalking;
     private bool isAttacking;
+    private bool canMove;
+    private bool canAttack;
 
     // Start is called before the first frame update
     void Start()
     {
         _playerRb = GetComponent<Rigidbody2D>();
         _playerAnim = GetComponent<Animator>();
+        canMove = true;
+        canAttack = true;
     }
 
     private void Update()
     {
+        isAttacking = false;
         isGrounded = Physics2D.OverlapCircle(_groundCheck.position, groundCheckRadius, whatIsGround);
-        Attack();
+        if (canAttack)
+        {
+            Attack();
+        }
     }
 
     private void FixedUpdate()
     {
-        Movement();
-        FlipPlayer();
-        if (Input.GetButton("Jump") && isGrounded)
+        if (canMove)
         {
-            Jump();
+            Movement();
+            FlipPlayer();
+            if (Input.GetButton("Jump") && isGrounded)
+            {
+                Jump();
+            }
         }
     }
 
@@ -74,5 +85,25 @@ public class PlayerController : MonoBehaviour
     private void Attack()
     {
         isAttacking = Input.GetButtonDown("Fire1") ? isAttacking = true : isAttacking = false;
+        if (isAttacking && isGrounded)
+        {
+            StartCoroutine(PlayerCantMove());
+            StartCoroutine(PlayerCantAttack());
+        }
+    }
+
+    public IEnumerator PlayerCantMove()
+    {
+        canMove = false;
+        _playerRb.velocity = Vector2.zero;
+        yield return new WaitForSeconds(0.5f);
+        canMove = true;
+    }
+
+    public IEnumerator PlayerCantAttack()
+    {
+        canAttack = false;
+        yield return new WaitForSeconds(0.5f);
+        canAttack = true;
     }
 }

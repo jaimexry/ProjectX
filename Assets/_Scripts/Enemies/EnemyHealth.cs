@@ -41,7 +41,7 @@ public class EnemyHealth : MonoBehaviour
             }
             else
             {
-                StartCoroutine(enemyBlink.Blinking());
+                StartCoroutine(enemyBlink.Blinking(0.5f));
             }
         }
     }

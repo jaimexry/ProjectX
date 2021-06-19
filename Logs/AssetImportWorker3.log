@@ -1,0 +1,156 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.10f1 (297d780c91bc) revision 2719096'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.1052; Version 2004; 64bit' Language: 'es' Physical Memory: 8152 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Archivos de programa\2020.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/Developer/Unity/PROJECTX/ProjectX
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+55755
+Successfully changed project path to: D:/Developer/Unity/PROJECTX/ProjectX
+D:/Developer/Unity/PROJECTX/ProjectX
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 91.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.10f1 (297d780c91bc)
+[Subsystems] Discovering subsystems at path D:/Archivos de programa/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Developer/Unity/PROJECTX/ProjectX/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   27.21.14.6589
+Initialize mono
+Mono path[0] = 'D:/Archivos de programa/2020.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Archivos de programa/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Archivos de programa/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Archivos de programa/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003367 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 80.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.982 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007448 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 69.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.967 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2191 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.7 MB.
+System memory in use after: 168.6 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2628.
+Total: 3.029900 ms (FindLiveObjects: 0.236800 ms CreateObjectMapping: 0.103800 ms MarkObjects: 2.490700 ms  DeleteObjects: 0.196800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Art/gothicvania-cemetery-files/demo/assets/sprites
+  artifactKey: Guid(de21f5bb1f19da444933178da9353a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/gothicvania-cemetery-files/demo/assets/sprites using Guid(de21f5bb1f19da444933178da9353a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1baa3c2dfe2d1265351ddf43fc5586e4') in 0.035040 seconds
+  Import took 0.040230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Art/gothicvania-cemetery-files/demo/assets/environment/objects.png
+  artifactKey: Guid(3b07c6c971a160f4c9227da52bc9310b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/gothicvania-cemetery-files/demo/assets/environment/objects.png using Guid(3b07c6c971a160f4c9227da52bc9310b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d242e99fe6b97fda9ad75102b8c1dc') in 0.398972 seconds
+  Import took 0.431198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Art/gothicvania-cemetery-files/demo/assets/sprites/title-screen.png
+  artifactKey: Guid(576268b9ded35ee4aaad6b96e5dbd7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/gothicvania-cemetery-files/demo/assets/sprites/title-screen.png using Guid(576268b9ded35ee4aaad6b96e5dbd7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514723f4ba49410bd8a2eee0b46f3565') in 0.024039 seconds
+  Import took 0.044215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Art/gothicvania-cemetery-files/demo/assets/environment
+  artifactKey: Guid(013edc0d3f5e6a943805ed6db639e23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/gothicvania-cemetery-files/demo/assets/environment using Guid(013edc0d3f5e6a943805ed6db639e23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1616422df1e912b0aa168f7cea34940') in 0.008116 seconds
+  Import took 0.013177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Art/gothicvania-cemetery-files/demo/assets/sprites/press-enter-text.png
+  artifactKey: Guid(59e50f092a372984c9e30820d7694a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/gothicvania-cemetery-files/demo/assets/sprites/press-enter-text.png using Guid(59e50f092a372984c9e30820d7694a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66215283e69445cfa36ad04a760caa78') in 0.035244 seconds
+  Import took 0.045215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Art/gothicvania-cemetery-files/demo/assets/maps/map.json
+  artifactKey: Guid(124167dcd917d1247a4401f93bac2307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/gothicvania-cemetery-files/demo/assets/maps/map.json using Guid(124167dcd917d1247a4401f93bac2307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5033378620fbfa5d0b718abc23e218') in 0.025780 seconds
+  Import took 0.047526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Art/gothicvania-cemetery-files/demo/assets/sprites/instructions.png
+  artifactKey: Guid(52fa21107da673d44812fce73a9b37df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/gothicvania-cemetery-files/demo/assets/sprites/instructions.png using Guid(52fa21107da673d44812fce73a9b37df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f1f946789e261233ee189fb93db247') in 0.021973 seconds
+  Import took 0.026257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Art/gothicvania-cemetery-files/demo/assets/maps
+  artifactKey: Guid(f19fb9d33b1ed0544873d941843bbe3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/gothicvania-cemetery-files/demo/assets/maps using Guid(f19fb9d33b1ed0544873d941843bbe3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b847cd87c95ad5b95937e3b10e4a147d') in 0.009410 seconds
+  Import took 0.021347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Art/gothicvania-cemetery-files/demo/assets/sprites/loading.png
+  artifactKey: Guid(eaf04c82c6be6e741ab07b5341696162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/gothicvania-cemetery-files/demo/assets/sprites/loading.png using Guid(eaf04c82c6be6e741ab07b5341696162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf124944b0862e3e44b17b2dad9c3567') in 0.017252 seconds
+  Import took 0.026311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Art/gothicvania-cemetery-files/demo/assets/environment/tileset.png
+  artifactKey: Guid(5daa42d252b8339429f41f78f9651f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/gothicvania-cemetery-files/demo/assets/environment/tileset.png using Guid(5daa42d252b8339429f41f78f9651f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5be230f9692ff4a4d3db27ebdc5fc6f') in 0.030356 seconds
+  Import took 0.043359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Art/gothicvania-cemetery-files/demo/assets/atlas
+  artifactKey: Guid(9d2bd330c572ed948bc2c3fbe9f122bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/gothicvania-cemetery-files/demo/assets/atlas using Guid(9d2bd330c572ed948bc2c3fbe9f122bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435d1d2c10eef323fa45b7f6c9e7ca03') in 0.008106 seconds
+  Import took 0.020587 seconds .
+

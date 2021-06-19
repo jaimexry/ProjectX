@@ -14,10 +14,10 @@ public class Blink : MonoBehaviour
         enemyRender = GetComponent<SpriteRenderer>();
     }
 
-    public IEnumerator Blinking()
+    public IEnumerator Blinking(float timer)
     {
         ChangeMaterial(blink);
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(timer);
         ChangeMaterial(original);
     }
 

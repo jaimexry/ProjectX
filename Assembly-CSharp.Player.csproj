@@ -55,8 +55,11 @@
      <Compile Include="Assets\_Scripts\Player\PlayerController.cs" />
      <Compile Include="Assets\_Scripts\Enemies\EnemyHealth.cs" />
      <Compile Include="Assets\_Scripts\DestroyGameObject.cs" />
-     <Compile Include="Assets\_Scripts\Enemies\Enemy.cs" />
      <Compile Include="Assets\_Scripts\Effects\Blink.cs" />
+     <Compile Include="Assets\_Scripts\Enemies\Enemy.cs" />
+     <Compile Include="Assets\_Scripts\Player\PlayerHealth.cs" />
+     <Compile Include="Assets\_Scripts\SceneScripts\UICamera.cs" />
+     <Compile Include="Assets\_Scripts\Enemies\EnemyBehaviour.cs" />
      <None Include="Assets\Art\gothicvania-cemetery-files\public-license.txt" />
  <Reference Include="UnityEngine">
  <HintPath>D:/Archivos de programa/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll</HintPath>
